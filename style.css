@@ -1,8 +1,23 @@
 body{
     background-color: rgb(201, 201, 201);
 }
-#quadrado-branco{
-    height: 50px;
-    width: 50px;
-    background-color: #FFFFFF;
+
+li{
+    align-items: center;
 }
+
+#header-bar{
+    background-color: #B4262A;
+}
+.fa {  
+    padding: 10px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+    color: white;
+  }   
+ 
+  .fa:hover {  
+      opacity: 0.9;  
+  }  

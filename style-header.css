@@ -1,0 +1,28 @@
+#header-bar{
+    background-color: #B4262A;
+}
+.header-component{
+    display: inline-block;
+}
+#glyph-icons{
+    width:max-content;
+    Float:right;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 2px;
+    text-align: center;
+}
+#logomarca{
+    font-size:xx-large;
+    color: #ffffff; 
+    padding: 10px;
+    margin: 5px 2px;
+}
+.fa {  
+    margin: 5px 2px;
+    text-align: center;  
+    color: #ffffff;  
+    font-size: 30px;  
+    width: 50px;  
+    text-decoration-line: none;
+  }  

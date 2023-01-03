@@ -3,6 +3,8 @@ body{
     padding: 0; 
 }
 .ex-color{
+    
+    background-color: rgb(225, 249, 255); 
     padding: 20px;
     text-align: center;
     display: inline-flex;
@@ -11,14 +13,12 @@ body{
 .colors-title{
     margin: 5px;
     padding: 10px;
-    background-color: rgb(225, 249, 255); 
     width: 20%;
 }
 .colors{
     padding: 10px;
     margin: 5px;
     width: 80%;
-    background-color: hsla(0, 0%, 96%, 0.863);
     justify-content: left;
     display: inline-flex;
 }
@@ -26,6 +26,9 @@ body{
 .co-title{
 }
 
+.ex-co{
+    padding: 5px
+}
 
 .color-block{
     margin: 5px;
@@ -36,14 +39,16 @@ body{
 
 
 .color-red{
-    background-color: red;
+    background-color: #B4262A;
+}.color-red2{
+    background-color: #D32126;
 }
 .color-white{
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .color-gray{
-    background-color: gray;
+    background-color: #CECECE;
 }
 .color-black{
-    background-color: black;
+    background-color: #000000;
 }

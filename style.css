@@ -5,7 +5,7 @@ body{
 }
 /*Stilo das cores */
 .ex-color{
-    background-color: rgb(225, 249, 255); 
+    background-color: rgba(146, 170, 176, 0.256); 
     padding: 20px;
     text-align: center;
     display: inline-flex;

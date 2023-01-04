@@ -10,96 +10,152 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <title>Style Guide Exemple</title>
+    <title>Exemplo Guia de Estilo</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+        #div-headr{
+            width: 45%;
+            display: grid;
+            justify-content: space-around;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(180, 180, 180);
+        }
+        header{
+            padding: 10px;
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-around;
+        }
+        h1{
+            color: Blue;
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 400%;
+        }
+        nav{
+            display: inline-flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        a{
+            text-align: center;
+            border-color: black;
+            border-style: solid;
+            background-color: blue;
+            font-size: 14pt;
+            margin: 5px;
+            font-weight: 700;
+            padding: 5px;
+            width: 150px;
+            color: white;
+            text-decoration-line: none;
+            border-radius: 35px;
+        }
+        .se-principal{
+            width: 100%;
+            display: grid;
+            justify-content: space-around;
+        }
+        .ex{
+            width: max-content;
+        }
+        
     </style>
 </head>
 <body>
-    <header class="ex ex-header">
-        <H1 class="ex ex-title">Style Guide</H1>
-        <nav class="ex ex-nav">
-            <a href="guia-de-estilo.html">Guia de estilo</a>
-            <a href="index.html">sistema</a>
-        </nav>
+    <header class="ex-header">
+        <div id="div-headr">
+            <H1 class="ex-title">Guia de Estilo Exemplo</H1>
+            <nav class="ex-nav">
+                <a href="guia-de-estilo.html">Guia de estilo</a>
+                <a href="index.html">Sistema de Exemplo</a>
+            </nav>
+        </div>
+        
     </header>
-    <section class="ex ex-color">
-        <div class="co colors-title">
-                <h2 class="co-title">
-                    <li>Colors</li>
+    <section class="se-principal">
+        <section class="ex ex-color">
+            <div class="co colors-title">
+                    <h2 class="co-title">
+                        <li>Colors</li>
+                    </h2>
+            </div> 
+            <div class="co colors">
+                <div class="ex-co">
+                    <div class="color-block color-red"></div>
+                    <p>code: #B4262A</p>
+                    <p>Red</p>
+                    
+                </div>
+                <div class="ex-co">
+                    <div class="color-block color-red2"></div>
+                    <p>code: #D32126</p>
+                    <p>Red</p>
+                    
+                </div>
+                <div class="ex-co">
+                    <div class="color-block  color-white"></div>
+                    <p>code: #FFFFFF</p>
+                    <p>White</p>
+                    
+                </div>
+                <div class="ex-co">
+                    <div class="color-block  color-black"></div>
+                    <p>code: #000000</p>
+                    <p>Black</p>
+                    
+                </div>
+                <div class="ex-co">
+                    <div class="color-block  color-gray"></div>
+                    <p>code: #CECECE</p>
+                    <p>Gray</p>
+                    
+                </div>
+            </div>  
+        </section>
+        <section class=" ex ex-font">
+            <div class="la-ti se-title">
+                <h2 class="fn-title">
+                    <li>Tipografy</li>
                 </h2>
-        </div> 
-        <div class="co colors">
-            <div class="ex-co">
-                <div class="ex color-block color-red"></div>
-                <p>code: #B4262A</p>
-                <p>Red</p>
+            </div>
+            <div class="se-exemple">
+                <div class="fn-block">
+                    <div class="palavra">
+                        <p class=" para rob-mono">
+                            Aa
+                        </p>
+                        <p>Tipografy: Roboto mono regular</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="fn-block ">
+                    <div class="palavra">
+                        <p class="para libre-fran">
+                            Aa
+                        </p>
+                        <p>Tipografy: Libre Franklin black</p>
+                    </div>
+                </div>
+                <div class="fn-block ">
+                    <div class="palavra">
+                        <p class="para now">
+                            Aa
+                        </p>
+                        <p>Tipografy: Now regular</p>
+                    </div>
+                </div>
                 
             </div>
-            <div class="ex-co">
-                <div class="ex color-block color-red2"></div>
-                <p>code: #D32126</p>
-                <p>Red</p>
-                
-            </div>
-            <div class="ex-co">
-                <div class="ex color-block  color-white"></div>
-                <p>code: #FFFFFF</p>
-                <p>White</p>
-                
-            </div>
-            <div class="ex-co">
-                <div class="ex color-block  color-black"></div>
-                <p>code: #000000</p>
-                <p>Black</p>
-                
-            </div>
-            <div class="ex-co">
-                <div class="ex color-block  color-gray"></div>
-                <p>code: #CECECE</p>
-                <p>Gray</p>
-                
-            </div>
-        </div>  
+        </section>
+        
     </section>
-    <section class="ex ex-font">
-        <div class="la-ti se-title">
-            <h2 class="fn-title">
-                <li>Tipografy</li>
-            </h2>
-        </div>
-        <div class="se-exemple">
-            <div class="fn-block">
-                <div class="palavra">
-                    <p class=" para rob-mono">
-                        Aa
-                    </p>
-                    <p>Tipografy: Roboto mono regular</p>
-                </div>
-                
-            </div>
-            
-            <div class="fn-block ">
-                <div class="palavra">
-                    <p class="para libre-fran">
-                        Aa
-                    </p>
-                    <p>Tipografy: Libre Franklin black</p>
-                </div>
-            </div>
-            <div class="fn-block ">
-                <div class="palavra">
-                    <p class="para now">
-                        Aa
-                    </p>
-                    <p>Tipografy: Now regular</p>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    
 </body>
 </html>

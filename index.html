@@ -5,31 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-    <link rel="stylesheet" href="style-header.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Pagina</title>
+    <style>
+        #div-headr{
+            width: 45%;
+            display: grid;
+            justify-content: space-around;
+        }
+        .pri-body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(180, 180, 180);
+        }
+        header{
+            padding: 10px;
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-around;
+        }
+        h1{
+            color: Blue;
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 400%;
+        }
+        nav{
+            display: inline-flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        a{
+            text-align: center;
+            border-color: black;
+            border-style: solid;
+            background-color: blue;
+            font-size: 14pt;
+            margin: 5px;
+            font-weight: 700;
+            padding: 5px;
+            width: 150px;
+            color: white;
+            text-decoration-line: none;
+            border-radius: 35px;
+        }
+        section{
+            padding: 10px;
+            display: inline-flex;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        img{
+            width: 45%;
+        }
+    </style>
+    <title>Sistema</title>
 </head>
-<body>
-    <a href="guia-de-estilo-exemplo.html">Exemplo</a>
-    <a href="guia-de-estilo.html">Guia de estilo</a>
-    <section id="header">
-        <h2>HEADER</h2>
-        <div id="header-bar">
-            <div id="logomarca" class="header-component">Logomarca</div>
-            <div id="glyph-icons" class="header-component">
-                <a href="#facebook" class="fa fa-facebook"></a>
-                <a href="#twitter" class="fa fa-twitter"></a>
-                <a href="#pinterest" class="fa fa-pinterest"></a>
-                <a href="#linkedin" class="fa fa-linkedin"></a>
-                <a href="#instagram" class="fa fa-instagram"></a>
-                <a href="#youtube" class="fa fa-youtube"></a>
-                <a href="#snapchat" class="fa fa-snapchat-ghost"></a>
-            </div>
+<body class="pri-body">
+    <Header class="pri-header">
+        <div id="div-headr">
+            <H1 class="pri-h1">Sistema de Exemplo</H1>
+            <nav class="pri-nav">
+                <a class="pri-a" href="guia-de-estilo.html">Guia de estilo</a>
+                <a class="pri-a" href="guia-de-estilo-exemplo.html">Exemplo do guia</a>
+            </nav>
         </div>
-    <ul>
-    </ul>
+    </Header>
+    <section class="pri-se">
+        <img class="pri-img" src="Protótipo páginas.png" alt="">
     </section>
-
 </body>
-<script src="https://kit.fontawesome.com/65f22fe718.js" crossorigin="anonymous"></script>
 </html>
